@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Github-user</title>
+    <!--adding title to the page -->
+    <link href="style.css" rel="stylesheet">
+    <!--adding css -->
+    <script src="jquery.js" type="text/javascript"></script>
+    <!--adding jquery -->
+    <script src="script.js" type="text/javascript"></script>
+    <!--adding javascript -->
+</head>
+<body style= "background-color:antiquewhite;">
+<header>
+    <h1 style="color:palevioletred;">Type in the Github User name below to find their details </h1>
+</header>
+<div id="container">
+    <div class="search">
+        <input id="username" placeholder="Enter github username..." type="text"></input>
+        <!--adding input box to enter user name -->
+    </div>
+    <div id="profile">
+        <h2></h2>
+        <div class="avatar">
+            <img id="imgAvatar">
+            <!--displaying image -->
+        </div>
+        <div class="information">
+            <table>
+                <tr>
+                    <td>Name</td> <td><span id="textName"></span></td>
+                    <!--displaying user name -->
+                </tr>
+                <tr>
+                    <td>ID</td> <td><span id="textId"></span></td>
+                    <!--displaying user id -->
+                </tr>
+                <tr>
+                    <td>GitHub URL</td> <td><a id="textUrl"></a></td>
+                    <!--displaying url -->
+                </tr>
+                <tr>
+                    <td>Public Repositories</td> <td><span id="textRepository"></span></td>
+                    <!--displaying user repositories -->
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
